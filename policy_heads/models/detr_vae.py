@@ -8,7 +8,8 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 from .backbone import build_backbone
 from .transformer import build_transformer, TransformerEncoder, TransformerEncoderLayer
-from detr.models.position_encoding import position_encoding_1d
+# from detr.models.position_encoding import position_encoding_1d
+from policy_heads.models.position_encoding import position_encoding_1d
 import numpy as np
 
 import IPython
